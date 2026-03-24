@@ -128,7 +128,7 @@ export default function Home() {
         </h1>
 
         <p className="text-white/50 text-lg max-w-xl leading-relaxed">
-          Moda masculina com identidade. Cadastre sua loja e tenha acesso ao catálogo exclusivo de revendedores Tribosanta.
+          Moda masculina e feminina com identidade. Cadastre sua loja e tenha acesso ao catálogo exclusivo de revendedores Tribosanta.
         </p>
       </section>
 
