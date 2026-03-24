@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Users/henrylucavaz/Tribo Claude/public/logo.png\")",
+      "Bash(sips --cropToHeightWidth 600 900 --cropOffset 90 1100 \"/Users/henrylucavaz/Tribo Claude/public/logo.png\" --out \"/Users/henrylucavaz/Tribo Claude/public/logo_crop.png\")",
+      "Bash(sips --cropToHeightWidth 500 900 --cropOffset 700 90 \"/Users/henrylucavaz/Tribo Claude/public/logo.png\" --out \"/Users/henrylucavaz/Tribo Claude/public/logo_crop.png\")",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Users/henrylucavaz/Tribo Claude/public/logo_crop.png\")",
+      "Bash(sips --cropToHeightWidth 600 1080 --cropOffset 640 0 \"/Users/henrylucavaz/Tribo Claude/public/logo.png\" --out \"/Users/henrylucavaz/Tribo Claude/public/logo_crop.png\")",
+      "Bash(sips --cropToHeightWidth 350 960 --cropOffset 100 40 \"/Users/henrylucavaz/Tribo Claude/public/logo.png\" --out \"/Users/henrylucavaz/Tribo Claude/public/logo_tight.png\")",
+      "Bash(vercel --version)",
+      "Bash(git --version)"
+    ]
+  }
+}
